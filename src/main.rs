@@ -3,6 +3,8 @@ use bevy::{
     sprite::{MaterialMesh2dBundle, Mesh2dHandle},
 };
 
+mod weighted_tree_builder;
+
 fn main() {
     App::new()
         .add_plugins(DefaultPlugins)

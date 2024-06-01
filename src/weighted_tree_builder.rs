@@ -24,3 +24,15 @@
 /// 8.1-  draw the shoreline
 /// 8.2-  draw ponds, lakes
 /// 8.3-  draw rivers [lowest crevasse] (ensure rivers spill into the sea - some can dissapear into the land)
+use bevy::prelude::*;
+
+const MAX_LAYERS: i8 = 5;
+
+pub struct WeightedNode {
+    pub weight: f32,
+    pub location: Vec2,
+}
+
+fn build_weighted_graph() {
+    let mut graph: Vec<Vec<WeightedNode>>;
+}
